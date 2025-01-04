@@ -8,6 +8,7 @@
 - Utilizes local storage to prevent repetitive API calls.
 - Utilizes cookies to save webhook URL in the browser.
 - Mobile, Tablet, Desktop responsive UI.
+- Converted PNG to WEBP to optimize images to improve performance.
 
 ### Limitations
 
