@@ -1,5 +1,9 @@
 # Flightly
 
+### Approach
+
+I planned for what to complete for the given amount of time. Since I was only given 24 hours, I focused on the functionalities of the application and less focus on appearance but still made it presentable. I decided that the v1.0.0 version of the app will be a fully functioning app and the v2.0.0 version will have better UI if there will be more time. I researched about the information that users should see in a flight information. Then I look up for a public API and inspected its JSON response. Since the project requirements does not require setting up a database or saving information, I decided to create a serverless application using Next.js, TailwindCSS, TypeScript. I used Postman to test and experiment with the API response. I developed the application while reading the docs. I spent an all-nighter to give myself enough time to meet the deadline. I ask for ChatGPTs assistance to speed up my development process. I used the remaining time I have to test and polish the code. I also deployed it on Vercel so the application can be accessed without the need of setting it up locally.
+
 ### Features
 
 - View flight information using a Flight Number and Flight Scheduled Date.
@@ -15,7 +19,10 @@
 - The free API calls are only limited to 100 calls.
 - Information might slightly differ to other flight API providers.
 
-### Setup and Installation
+### Online Deployment
+You can access the app at `https://flightly-iota.vercel.app/`
+
+### Local Setup and Installation
 
 1. Clone the repository.
 `https://github.com/mcmfire/flightly.git`
@@ -34,3 +41,6 @@
 3. Optionally, you can find a Get Notifications button at the lower right of the screen where you can paste a Slack webhook to get notifications whenever a Flight is delayed.
 4. To setup the Slack webhooks, you can follow the instructions here `https://api.slack.com/messaging/webhooks`.
 5. Then search a delayed flight in Flightly and you will receive a Slack notification.
+
+### Note
+Please let me know if there are problems or concerns that arise. I am available to help. Thank you so much!
