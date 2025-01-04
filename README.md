@@ -8,7 +8,7 @@ I planned for what to complete for the given amount of time. Since I was only gi
 
 - View flight information using a Flight Number and Flight Scheduled Date.
 - Connect a Slack Webhook to automatically receive notifications whenever a Flight is delayed
-- Utilizes search paramters for sharable flight information. For instance, a flight information can be shared as a link by pasting the url `http://localhost:3000/?flight_number=EK57&flight_date=2025-01-4`.
+- Utilizes search parameters for sharable flight information. For instance, a flight information can be shared as a link by pasting the url `[http://localhost:3000](https://flightly-iota.vercel.app)/?flight_number=EK57&flight_date=2025-01-4`.
 - Utilizes local storage to prevent repetitive API calls.
 - Utilizes cookies to save webhook URL in the browser.
 - Mobile, Tablet, Desktop responsive UI.
