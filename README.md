@@ -7,6 +7,7 @@
 - Utilizes search paramters for sharable flight information. For instance, a flight information can be shared as a link by pasting the url `http://localhost:3000/?flight_number=EK57&flight_date=2025-01-4`.
 - Utilizes local storage to prevent repetitive API calls.
 - Utilizes cookies to save webhook URL in the browser.
+- Mobile, Tablet, Desktop responsive UI.
 
 ### Limitations
 
