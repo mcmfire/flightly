@@ -1,4 +1,4 @@
-#Flightly
+# Flightly
 
 ### Features
 
@@ -21,7 +21,15 @@
 2. Open the repository in your IDE (e.g. Visual Studio Code) and open the terminal.
 3. Install the packages using any package manager, for this example I use NPM.
 `npm install`
-4. Run the app in development mode.
+4. Download the `.env.local` file attached in the email and paste it in the root directory of the project.
+5. Run the app in development mode.
 `npm run dev`
-5. You can now access the app by typing the url in the browser.
+6. You can now access the app by typing the url in the browser.
 `localhost:3000/`
+
+### Usage
+1. You can go to online sources of list of flights to locate a Flight Number and the Flight Scheduled Date. For instance, you can go to `https://www.airport-dubai.net/dxb-departures` and copy a Flight Number and paste it in the Flightly app. Then select the date, in this case, the date today.
+2. Hit the search button and the Flight Information will show.
+3. Optionally, you can find a Get Notifications button at the lower right of the screen where you can paste a Slack webhook to get notifications whenever a Flight is delayed.
+4. To setup the Slack webhooks, you can follow the instructions here `https://api.slack.com/messaging/webhooks`.
+5. Then search a delayed flight in Flightly and you will receive a Slack notification.
