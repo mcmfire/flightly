@@ -4,7 +4,6 @@ import { useContext, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { FaSearch } from "react-icons/fa";
 import { FlightContext } from "@/context/FlightContext";
-import { BASE_URL } from "@/utils/constants";
 
 export default function SearchBar() {
     const router = useRouter()
@@ -15,7 +14,7 @@ export default function SearchBar() {
 
     async function getFlightInfo(flightNumber: string, flightDate: string) {
         try {
-            const response = await fetch(`${BASE_URL}/api/flights?flight_iata=${flightNumber}&flight_date=${flightDate}`, {
+            const response = await fetch(`api/flights?flight_iata=${flightNumber}&flight_date=${flightDate}`, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",

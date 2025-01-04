@@ -1,4 +1,3 @@
-export const BASE_URL = "http://localhost:3000";
 export const FLIGHTS_RESULT_LIMIT=5;
 
 export const FLIGHT_COLOR_CODES = {
